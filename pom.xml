@@ -20,9 +20,16 @@
         <junit.version>4.13</junit.version>
         <lombok.version>1.18.18</lombok.version>
         <log.version>1.7.25</log.version>
+        <spring-boot.version>2.7.5</spring-boot.version>
     </properties>
 
     <dependencies>
+        <!-- SpringBoot 依赖配置 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
         <!-- junit -->
         <dependency>
             <groupId>junit</groupId>
